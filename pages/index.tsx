@@ -7,7 +7,6 @@ export default function Home() {
     <Layout>
       <Search />
       <ListMovies />
-      <iframe src="https://codesandbox.io/embed/github/kentcdodds/react-testing-library-examples/tree/main/?fontsize=14&hidenavigation=1&theme=dark"></iframe>
     </Layout>
   );
 }
