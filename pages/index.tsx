@@ -7,6 +7,7 @@ export default function Home() {
     <Layout>
       <Search />
       <ListMovies />
+      <iframe src="https://i.imgur.com/1EFQ7lp.png" />
     </Layout>
   );
 }
