@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import { TermProvider } from "../context/term.context";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <TermProvider>
+      <Component {...pageProps} />
+    </TermProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;

@@ -6,12 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch"
+    "test": "jest --watch --verbose"
   },
   "dependencies": {
     "next": "10.0.5",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "whatwg-fetch": "^3.5.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.9",
