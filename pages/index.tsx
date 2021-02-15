@@ -7,7 +7,7 @@ export default function Home() {
     <Layout>
       <Search />
       <ListMovies />
-      <iframe src="https://i.imgur.com/1EFQ7lp.png" />
+      <iframe src="https://support.mozilla.org/es/kb/el-sitio-web-no-permitira-que-firefox-muestre-la-p?as=u&utm_source=inproduct" />
     </Layout>
   );
 }
